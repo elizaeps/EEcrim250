@@ -2,6 +2,8 @@
 
 Eliza Epstein's Crim 450 Senior Thesis
 
+## memo 1
+
 TO: Maria Cuellar
 
 FROM: Eliza Epstein
