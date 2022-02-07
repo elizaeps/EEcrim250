@@ -1,6 +1,6 @@
-# Memorandums
+# Eliza Epstein's Crim 450 Senior Thesis
 
-Eliza Epstein's Crim 450 Senior Thesis
+# Memorandums
 
 ## memo 1
 
