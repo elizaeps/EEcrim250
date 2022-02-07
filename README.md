@@ -1,6 +1,6 @@
 # Memorandums
 
-Eliza Epstein's Crim 250 Senior Thesis
+Eliza Epstein's Crim 450 Senior Thesis
 
 TO: Maria Cuellar
 
