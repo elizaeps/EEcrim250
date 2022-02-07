@@ -34,17 +34,25 @@ Given the health disparities for incarcerated women, researchers have begun anal
 I. Introduction
 
 II. Literature Review
+
 ● Prenatal Incarceration
+
 ● Pregnancy Outcomes in Prisons in the US
+
 ● Prenatal Care in Prisons
+
 ● Birth outcomes of prenatal incarceration compared to general populations
 
 III. Data
 
 IV. Research Design
+
 ● Hypothesis
+
 ● Study Population
+
 ● Relationship Between Empirical Measure and Theoretical Construct of Interest
+
 ● Data analysis and interpretation
 
 V. Limitations
