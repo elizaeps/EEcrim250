@@ -47,25 +47,25 @@ I. Introduction
 
 II. Literature Review
 
-● Prenatal Incarceration
+    ● Prenatal Incarceration
 
-● Pregnancy Outcomes in Prisons in the US
+    ● Pregnancy Outcomes in Prisons in the US
 
-● Prenatal Care in Prisons
+    ● Prenatal Care in Prisons
 
-● Birth outcomes of prenatal incarceration compared to general populations
+    ● Birth outcomes of prenatal incarceration compared to general populations
 
 III. Data
 
 IV. Research Design
 
-● Hypothesis
+    ● Hypothesis
 
-● Study Population
+    ● Study Population
 
-● Relationship Between Empirical Measure and Theoretical Construct of Interest
+    ● Relationship Between Empirical Measure and Theoretical Construct of Interest
 
-● Data analysis and interpretation
+    ● Data analysis and interpretation
 
 V. Limitations
 
@@ -87,26 +87,28 @@ While it is informative to view the birth outcomes, they are difficult to analyz
 ### Prenatal Incarceration
 
 Two popularly researched groups are pregnant women and imprisoned individuals. That said, much less research has been done on the overlap between these two already vulnerable groups: pregnant women in prisons. Before exploring specificities about birth outcomes, it is important to first contextualize prenatal incarceration.
+
 To begin, there have been a few qualitative studies including interviews and surveys about pregnancy behind bars. Wismont (2000) conducted a study to explain the experience of being pregnant in prison. While much has changed in the past twenty years, this background knowledge gives a general context for pregnancy in US prisons. She interviewed twelve participants, asking them about their pregnancy experiences. Some of the women in the study had been pregnant before, so they could describe first hand the difference of being pregnant within and outside of the prison. They explained specific stressors such as the lack of choices about their care, the powerlessness and isolation during an already stressful experience and fears of saying goodbye to the baby. In my research study, I want to quantify these differences. While this study is thought provoking, it is merely these twelve womens’ opinions on their experiences. It raises the question of whether this experience is quantifiably different.
 Similarly, Dolan et al. (2019) analyzed the mental health of pregnant women in prison in the UK. Of the group studied, she found that 51% had depression and 57% had anxiety. That said, when regarding mental health in this topic it is difficult to pinpoint the causation due to regular hormonal shifts during any pregnancy and increased mental health concerns during imprisonment. That is, it is unclear how much is due to the pregnancy alone, how much is due to the imprisonment alone and how much is the overlap. Regardless, it is noteworthy that more imprisoned pregnant women in this study had diagnosable mental health concerns than not. The larger picture of prenatal pregnancy has been studied and has been shown to have detrimental effects when interviewing women. On a personal level, the lack of autonomy, the physical discomfort and the loneliness, among many other issues, have great impacts on a woman’s pregnancy experience. That said, does it have substantial impacts that would affect birth outcomes?
 
 ### Pregnancy outcomes in Prisons in the US
+
 More specifically, questions have been raised about both prevalence of and outcomes for incarcerated mothers. Sufrin et al. (2017) conducted a study analyzing pregnancy outcomes in prisons. Their goal was to complete a descriptive study explaining the frequency of pregnancy in prison as well as the birth outcomes with the intention of urging policy makers to make changes which could lead to improved overall outcomes. The data collected included the amount of pregant women, the amount of births, misccarriages, abortions and mortality rates. They found that 92% resulted in live births, 6% in miscarriages, 1% in abortions, 0.5% in stillbirths and 0.5% newborn deaths.
 
 Among a different team of researchers, Dr. Carolyn Sufrin et al.(2020) studied pregnancy rates and outcomes in U.S jails. Following a similar methodology, Sufrin found that approximately 3% of females admitted to jails in the US are pregnant. In this sample, she found 64% were live births, 18% were miscarriages, 15% were induced abortions and 1.8% were ectopic pregnancies. Of the births, 1⁄3 were cesarean sections and 8% were premature deliveries. There were two stillbirths and one newborn birth. This raw data is compelling, but is difficult to analyze when not compared to these rates of other populations.
 
-
  These descriptive studies are helpful starting points to both view the general relevant information and to emphasize that, while overall the sample size is relatively small, there are enough incarcerated pregnant women for this to be a topic worth emphasizing. This information alone is intriguing, but it raises questions about how this population compares to populations outside of prisons. It is difficult to analyze the birth outcomes without a context of comparable information in a different population. For that reason, I want to use similar information to compare birth outcomes within the prison system to birth outcomes in the general population of the US.
 
 ### Prenatal care in prisons
+
 One of the greatest factors of pregnancy during imprisonment is the prenatal care available. Under the 8th amendment, incarcerated pregnant women are required to be given health checks. McCall, Casteel and Shaw (1985) found that among their sample, prenatal health care providers in prisons were described as insensitive and unhelpful. The prenatal care offered did not meet the national standard for prenatal care. There were not early identification checks for pregnancy and rare examinations for signs of high risk pregnancy. It is crucial to note that this study was conducted over thirty years ago and much has evolved in the medical field since. That said, qualitative studies of this type have not been replicated since. This study merely helps emphasize the extent to which this population has been historically overlooked.
 
 That said, Cordero el. Al (1992) found that prematurity and SGA (“small for gestational age”) were less common for the women in her sample who received legitimate prenatal care within prison than for those who did not. She found that the prematurity rate among those without care was around 20% and the rate for those who received care was 3%. A previous study found that women with short sentences faced a greater risk of perinatal mortality than those with longer sentences due to increased treatment, nutrition and structure (Cordero et al, 1991). Additionally, Howard et al. (2008) found a statistically significant increase in birthweight of babies born to incarcerated mothers for each prenatal care visit that the mother received.
 Much like the data on birth outcomes, the information on prenatal care is thought provoking, but without comparing it to data outside of prisons, it is difficult to put in context. While healthcare for pregnant women can be impersonal and insensitive, it raises questions about how that prenatal care compares to women in underserved communities outside of prisons. Furthermore, the information about the benefits of prenatal care raise questions about whether prenatal checks make equally substantial differences for the general population.
 
 ### Birth outcomes of prenatal incarceration compared to general populations
-Knowing the prevalence and outcomes of prenatal incarceration, it is then crucial to compare that information to general populations. That said, due to the fact that imprisoned women often come from disadvantaged backgrounds, it is vital to acknowledge that confounding factor. In order to do so, birth outcomes in prisons can be compared both to a general population, but also to disadvantaged populations. Knight and Plugge (2005) found in a systematic review that there were significant differences for childbirths of incarcerated women as compared to both the general population and compared to disadvantaged women. They reviewed studies analyzing cohorts all around the world including England, Germany and the US. They found that imprisoned women are more likely to deliver preterm and have below average weight babies than women in a general population. In contrast, imprisoned women are less likely to deliver preterm and have below average weight babies than women in disadvantaged populations. That is, according to the studies analyzed here, imprisonment of the mother may be beneficial for babies of disadvantaged women. That could be due to guaranteed meals, housing and health checks. While this study shows the outcomes of interest, it is both from 2005 and compiling international data. This paper will contribute a more updated analysis, as well as a centralized view of the United States alone.
-Elton (2009) found that women admitted later in their pregnancies had statistically significantly lower weight newborns than babies born to mothers who were not incarcerated. That said, there was no statistically significant difference for women admitted earlier in their pregnancies. Martin et al. (2011) found no statistically significant difference in infant birth weights among women incarcerated during pregnancy, but found that low birth weight was more common among babies of mothers who had been previously incarcerated as compared to women who had never been incarcerated.
+
+Knowing the prevalence and outcomes of prenatal incarceration, it is then crucial to compare that information to general populations. That said, due to the fact that imprisoned women often come from disadvantaged backgrounds, it is vital to acknowledge that confounding factor. In order to do so, birth outcomes in prisons can be compared both to a general population, but also to disadvantaged populations. Knight and Plugge (2005) found in a systematic review that there were significant differences for childbirths of incarcerated women as compared to both the general population and compared to disadvantaged women. They reviewed studies analyzing cohorts all around the world including England, Germany and the US. They found that imprisoned women are more likely to deliver preterm and have below average weight babies than women in a general population. In contrast, imprisoned women are less likely to deliver preterm and have below average weight babies than women in disadvantaged populations. That is, according to the studies analyzed here, imprisonment of the mother may be beneficial for babies of disadvantaged women. That could be due to guaranteed meals, housing and health checks. While this study shows the outcomes of interest, it is both from 2005 and compiling international data. This paper will contribute a more updated analysis, as well as a centralized view of the United States alone. Elton (2009) found that women admitted later in their pregnancies had statistically significantly lower weight newborns than babies born to mothers who were not incarcerated. That said, there was no statistically significant difference for women admitted earlier in their pregnancies. Martin et al. (2011) found no statistically significant difference in infant birth weights among women incarcerated during pregnancy, but found that low birth weight was more common among babies of mothers who had been previously incarcerated as compared to women who had never been incarcerated. 
 
 Walker et al. (2014) conducted a study in New South Wales, Australia in 2014 comparing perinatal outcomes of incarcerated women and disadvantaged women. This was a cohort study analyzing medical records of babies whose mothers were incarcerated at the time of their birth. They searched for an array of adverse birth outcomes including premature births, low birthweight, different forms of birth, admissions to the neonatal intensive care units, onset of labor and infant mortality. They found that within their sample, the women who had been incarcerated during their pregnancy showed an increased chance of adverse birth outcomes. This study analyzed precisely what this paper is aimed at doing: the key difference being the country in question. While imprisonment has similarities between different countries, we cannot equate incarceration in Australia with incarceration in the US. For that reason, this paper will replicate this study using data within the US.
 
@@ -136,6 +138,7 @@ The differences between birth outcomes of incarcerated women and women in a gene
 The goal of this data analysis is to compare the outcomes within prisons and outside of prisons. In order to isolate the women in prison, the FIPS codes of prisons will be used to identify locations where children were born to incarcerated mothers. Further, payment by state will identify the desired population. In order to isolate the “underserved” population outside of prison, those whose primary payment mode is medicaid will be separated. Childbirths that do not fit into the incarcerated populations will fall into the “general” category. Once the three study populations are separated, they will be presented and compared. It will first be necessary to present the areas of interest in tables. For example, the average birth weights for each population will be presented. Next, it will be helpful to visually display differences using bar charts for each outcome. While the visualization of the bar charts are helpful, conclusions cannot be drawn from there. For that reason, T tests will then be run to establish if there is a significant difference. This process will be used for each type of birth outcome gathered. Further analyses will be run in order to present differences. This data analysis will lead to a discussion of the outcomes.
 
 ### Qualitative Addition
+
 There may also be a qualitative component of this paper. Due to the deeply personal nature of this topic, it will be helpful to humanize the data using interviews from women who gave birth in prison. Many women who have endured this unique challenge are eager to share their stories on social media. To be consistent with the quantitative side of the study, there will be interviews conducted for women who have given birth in prison, women who have given birth in general and women who have given birth within an undesirable context. Standardized questions will be written for each interview, regarding the pregnancy experience discussing fears, relationship with health care professionals and more. The goal would not be to find a statistical difference, but rather to hear narratives from each experience: just because the birth outcomes may be quantitatively the same or different does not mean the experiences feel the same to the people living them.
 
 ## Limitations 
@@ -147,11 +150,12 @@ Finally, due to the need for clarification of payment by state prior to 2014, th
 
 ## Contribution to Knowledge 
 
-There is growing literature on the prevalence of childbirth in prison as well as descriptive
-studies explaining birth outcomes. That said, there are no recent studies that explore the difference in birth outcomes for imprisoned women to women in both a general population and an underserved population within the United States. Past studies have explored aspects of this paper, but none encapsulate all in one. For example, as discussed in the literature review, similar studies have been conducted in other countries. The outcomes of this study can then be compared to outcomes of similar studies done in other countries.
+There is growing literature on the prevalence of childbirth in prison as well as descriptive studies explaining birth outcomes. That said, there are no recent studies that explore the difference in birth outcomes for imprisoned women to women in both a general population and an underserved population within the United States. Past studies have explored aspects of this paper, but none encapsulate all in one. For example, as discussed in the literature review, similar studies have been conducted in other countries. The outcomes of this study can then be compared to outcomes of similar studies done in other countries.
+
 Ultimately, the outcomes will determine the given contributions. For example, if it is revealed that pregnancy in prison does lead to increased rates of adverse birth outcomes then this paper may be policy motivating. Further, this paper may be used to shine light on the conditions for whichever population has the least desirable birth outcomes. That is, if the group on medicaid has significantly worse outcomes than prisoners that may be telling of how damaging socioeconomic disadvantages can be in this country.
+
 In conclusion, this study can be used to fill in gaps in a rarely studied population. Pregnant women in prison are an especially vulnerable population and deserve more attention. On top of exploring the data analysis in question, it is also important to share information on this group.
-16
+
 
 ## References 
 
@@ -170,5 +174,5 @@ in Prison: A Needs Assessment of Perinatal Outcome In Three California Penal Ins
 11. Walker, J. R., Hilder, L., Levy, M. H., & Sullivan, E. A. (2014). Pregnancy, prison and perinatal outcomes in New South Wales, Australia: A retrospective cohort study using linked health data. Retrieved from https://bmcpregnancychildbirth.biomedcentral.com/articles/10.1186/1471-2393-14-214#c iteas
 12. Cordero, L., Hines, S., Shibley, K. A., & Landon, M. B. (1991). Duration of incarceration and perinatal outcome. Obstetrics and gynecology, 78(4), 641–645.
 13. S L Martin, H Kim, L L Kupper, R E Meyer, and M Hays (1997) Is incarceration during pregnancy associated with infant birthweight? American Journal of Public Health 87, 1526_1531, https://doi.org/10.2105/AJPH.87.9.1526
-     18
+
 
