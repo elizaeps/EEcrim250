@@ -24,6 +24,9 @@ https://pubmed.ncbi.nlm.nih.gov/23993475/
 
 https://www.healthinsurance.org/obamacare/how-obamacare-changed-maternity-coverage/
 
+I had been having trouble opening the files in R, but found a version of the data files in .csv http://data.nber.org/data/vital-statistics-natality-data.html ; After downloading the .csv versions of the files, I was able to load the data in R through dat <- read.csv("desktop/elizaepstein/natl2013.csv)
+
+
 # Thesis Proposal
 
 This proposal was completed as my final project for Crim 410. 
