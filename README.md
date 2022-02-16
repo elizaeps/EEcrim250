@@ -16,7 +16,20 @@ Last week, I was hopeful that I would be able to make the assumption that the st
 
 Additionally,  I checked on the status of my FIOIA request (I had requested data from all federal prisons in October on birth outcomes) — it had said that it may take up to nine months (which surpasses the date for when this thesis is due). That said, it says that to speed up requests it can be helpful to simplify the request — I am going to try to simplify in attempts to receive the data sooner — I do not know that this will work but it is worth a shot. 
 
-
+Finally, I used dplyr to select only the variables I will be working with (due to the large size of the data set). I decided to select the following variables:
+ 
+ - mother's age (mager)
+ - mother's level of education (meduc)
+ - mother's race (mbrace)
+ - month prenatal care began (precare_rec)
+ - number of prenatal visits (previs_rec)
+ - whether the mother smoked cigarettes during pregnancy (cig_rec)
+ - payment method (pay)
+ - whether the mother used a special supplemental nutrition program (wic)
+ - the baby's APGAR score 5 minutes after birth (apgar5r)
+ - thte baby's APGAR score 10 minutes after birth (apgar10r)
+ - birth weight (bwtr12)
+ - poor birth outcome (rf_ppoutc)
 
 ## memo 1
 
