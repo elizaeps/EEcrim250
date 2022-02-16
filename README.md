@@ -10,7 +10,7 @@ FROM: Eliza Epstein
 
 DATE: February 15, 2022
 
-RE: FIOIA request & Problems with Methodology 
+RE: Problems with Methodology & FIOIA request 
 
 Last week, I was hopeful that I would be able to make the assumption that the state payment method could be used to represent inmates in my study population. That said, when I loaded the data, I was disappointed to find that that population contains 39,893 births (a number that greatly exceeds the numbers of babies born to inmates every year). While 50,000+ pregnant women agree put in prison every year, only a few thousand give birth while incarcerated. My next goal was to subtract as many women from that group as possible, but am happy great difficulty in doing so. I found a variable called "WIC receipt" which is a special supplemental nutrition program: my guess is that women covered by state may also receive this (which inmates would not because prisons provide food) so my thought is this group could be eliminated. When I applied "table(dat$wic)", there were 1,568,093 individuals who receive this service. I would need help discerning the group that both receive this and receive state payment to see the number here. I created a table to figue out the number of individuals who reccieved "other government payment", but did not receive the special supplemental nutrition program and was left with 15,034 births (a number still too high to assume these are inmates) I went through every other variable and was unsure of what other variables could be used to isolate the desired population. 
 
