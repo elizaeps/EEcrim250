@@ -27,7 +27,7 @@ Finally, I used dplyr to select only the variables I will be working with (due t
  - payment method (pay)
  - whether the mother used a special supplemental nutrition program (wic)
  - the baby's APGAR score 5 minutes after birth (apgar5r)
- - thte baby's APGAR score 10 minutes after birth (apgar10r)
+ - the baby's APGAR score 10 minutes after birth (apgar10r)
  - birth weight (bwtr12)
  - poor birth outcome (rf_ppoutc)
 
