@@ -2,7 +2,7 @@
 
 # Memorandums
 
-## memo 2
+## Memo 2
 
 TO: Maria Cuellar
 
@@ -31,7 +31,7 @@ Finally, I used dplyr to select only the variables I will be working with (due t
  - birth weight (bwtr12)
  - poor birth outcome (rf_ppoutc)
 
-## memo 1
+## Memo 1
 
 TO: Maria Cuellar
 
