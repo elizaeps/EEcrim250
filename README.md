@@ -12,25 +12,27 @@ DATE: February 21, 2022
 
 RE: fresh start! 
 
-The dreaded day came: we decided to pause this project and start from scratch. Ideally, at some point in the future I will finish this initial thesis. I began going through data files to decide what I was interested by. Initially, I was interested by racial and gender differences of suicides in prisons. That said, the information of death of inmates is part of the NACJD restricted data set. I talked to Lauris Olsen about this project and my interests in general. He explained that it could be a simple process to retrieve acccess, but takes about 3 weeks. While I am interested by this topic, I am not married to this question enough to risk more time issues with data retrieval. He did ultimately lead me to a data set that is fully downloadable that only contains the public variables from the initial data set I was interested in: 
+The dreaded day came: we decided to pause this project and start from scratch. Ideally, at some point in the future I will finish this initial thesis. I began going through data files to decide what I was interested by. Initially, I was interested by racial and gender differences of suicides in prisons. That said, the information of death of inmates is part of the NACJD restricted data set. I talked to Lauris Olsen about this project and my interests in general. He explained that it could be a simple process to retrieve access, but takes about 3 weeks. While I am interested by this topic, I am not married to this question enough to risk more time issues with data retrieval. He did ultimately lead me to a data set that is fully downloadable that only contains the public variables from the initial data set I was interested in: 
 
 https://www.icpsr.umich.edu/web/NACJD/studies/38048/variables?start=50&sort=STUDYID%20asc%2CDATASETID%20asc%2CSTARTPOS%20asc&STUDYQ=38048&EXTERNAL_FLAG=1&ARCHIVE=NACJD&rows=50#
 
-From there, I read through the code book to think about what variables I was interested by. I noticed the varaible "Highest level of education by inmate" (EDUCATION). I assumed that there were many published studies on correlation between certain crimes and level of education, but there have actually not been said studies in many years (and many do not cover everything I would be interested in). I believe it could be interesting to study the correlation between levels of education and each crime reported. For example, I wonder if there is a statistically significant difference in the number of murders committed by those with and without a high school diploma. Without prior knowledge, my assumption would be that most crimes (murder, rape, public offenses) decrease with increased level of education (as old studies have suggested) and that fraud would increased with incrceased level of education. I would want to look generally, but also specifically by race, gender, age of admission and state. I would be interested in comparing outcomes based on different states due to the different qualities of education in different states (that is, a high school diploma in one state is not necessarily equivalent to a high school diploma in another). Right now this is a rather general question, but I would love to discuss more about which aspects you find interesting. 
+From there, I read through the code book to think about what variables I was interested by. I noticed the variable "Highest level of education by inmate" (EDUCATION). I assumed that there were many published studies on correlation between certain crimes and level of education, but there have actually not been said studies in many years (and many do not cover everything I would be interested in). I believe it could be interesting to study the correlation between levels of education and each crime reported. For example, I wonder if there is a statistically significant difference in the number of murders committed by those with and without a high school diploma. Without prior knowledge, my assumption would be that most crimes (murder, rape, public offenses) decrease with increased level of education (as old studies have suggested) and that fraud would increased with increased level of education. I would want to look generally, but also specifically by race, gender, age of admission and state. I would be interested in comparing outcomes based on different states due to the different qualities of education in different states (that is, a high school diploma in one state is not necessarily equivalent to a high school diploma in another). Right now this is a rather general question, but I would love to discuss more about which aspects you find interesting. 
 
 my proposed schedule moving forward:
 
-    - prior to spring break(march 3): finalize question, load the data, write methodology section
+    - prior to spring break(March 3): finalize question, load the data, write methodology section
 
-    - during spring break (march 14): write my literature review, research design
+    - during spring break (March 14): write my literature review, research design
     
-    - two weeks following spring break (march 24): data analysis, tables, tests (Results section)
+    - two weeks following spring break (March 24): data analysis, tables, tests (Results section)
     
-    - (march 31): put data analysis into words - discussion & conclusion
+    - (March 31): put data analysis into words - discussion & conclusion
     
-    - (april 7): write introduction 
+    - (April 7): write introduction 
     
-    - (april 14): finalize Abstract, edit ALL
+    - (April 14): finalize Abstract, edit ALL
+    
+    - (April 21): submit final thesis 
 
 
 ## Memo 2
