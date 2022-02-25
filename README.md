@@ -2,11 +2,158 @@
 
 # Memorandums
 
+## Memo 4
+
+TO: Maria Cuellar
+
+FROM: Eliza Epstein
+
+DATE: February 24, 2022
+
+RE: Healthcare in Prisons 
+
+---
+title: "EDA California Data"
+output: html_document
+---
+
+I decided to work with a new data set because the inmate data set that I had downloadd was not "cleaned" - when loading the data in R, it gave instructions on how to clean each line. Because I was not immediately excited about any of the variables, I felt that it would be more efficient to go on Jacob Kaplan's website (as we had learned about in Crim 250) in order to find a data set that was well organized and simpler to analyze (using my skill set). I found this data set specifically on jails in California and noticed variables related to health care. Due to the fact that I ultimately want to work as a doctor in prisons, I was immediately drawn to these variables. Below, I have show my initial EDA of the healthcare related variables within this data set.
+
+Moving forward, my goal is now to write a descriptive thesis about health care in jails. I want to show both the differences in certain variables over time as well as the differences between certain variables. 
+
+Already, my initial hypotheses have been wrong. 
+
+NOTES TO SELF: brief outline  
+    FIX T TESTS (switch to 2 variable -- currently 1 variable)
+
+      - abstract - descriptive study on health care visits in California jails 1995 to 2020
+      - introduction: disuss individual stories -- brief background of health care in prisons 
+      - hypothesis: low overall rates of medical care but improvement over time     
+      - data set: Jacob Kaplan's data file based on the California Board of State and Community Corrections' wesbite     there are 3 data sets (facility monthly, county level monthly and county level quarterly) - I have only analyzed the facility monthly so far, but can look into the others as well 
+               - citation: Kaplan, Jacob. California Jail Profile Survey 1995-2020. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 2021-01-16. https://doi.org/10.3886/E104560V7
+               
+      - literature review:
+                healthcare in jails, changes in the medical field 1995-2020, healthcare in California, rates of health care visits/doctors in prison 
+                  ** I also believe there is a way to incorporate some of my literature review about childbirth in prisons 
+                  
+      - data analysis: EDA, regression models based on the facility monthly reports 
+      - discussion: data analysis in words
+      - conclusion: policy/change implications (the need for improved health care in prisons)
+  
+    
+I first downloaded Jacob Kaplan's R files on the California jail surveys 1995 to 2020. The rows represent each Jail's monthly report and each column represents a factor of reporting. While the data focuses more generally on statistics such as number of female inmates, number of inmates awaiting trial and number of inmates transported to prison, I am focusing specifically on the healthcare data within. 
+
+```{r}
+setwd("~/Desktop/california")
+dat <- read.csv("california_jail_survey_1995_2020_csv 2/california_jail_county_monthly_1995_2020.csv")
+names (dat)
+```
+I have listed all of the variables to show what is available within this data for each monthly report. 
+
+```{r}
+summary (dat$num_inmates_seen_sick_call)
+```
+
+```{r}
+summary (dat$num_doctor_occurrences)
+```
+I wanted to show the difference in numbers for inmates seen at sick call as opposed to the number of inmates seen by a doctor. "Sick call" is a request for health care services. That is, the vast difference in inmates whose sick calls were accepted in contrast with the number seen by a doctor is notable. 
+
+```{r}
+t.test(dat$num_inmates_seen_sick_call,dat$num_doctor_occurrences)
+```
+In order to show the difference, I ran a ttest and found a stastically significant difference between the number of inmates seen at sick call and the number of inmates seen by a doctor per month in the California jails from 1995 to 2020. 
+
+
+```{r}
+hist(dat$num_inmates_seen_sick_call, col='red',xlim = c(0,50000))
+hist(dat$num_doctor_occurrences, col='blue', add=TRUE, xlim = c(0,50000))
+```
+
+I then created a histogram to visually show this difference. While the labels are off, it is a good starting point. The red represents the inmates seen at sick call and the blue represent the inmates seen by a doctor. 
+
+
+```{r}
+counts <- table(dat$num_doctor_occurrences, dat$year)
+barplot(counts, main="Number of Doctor Visits", xlab="year")
+```
+
+I was interested to see if there was a difference in the number of doctors visits over time, but this bar chart does not seem to show a pattern. That said, I was surprised to see somewhat of an apparent decrease over time. I assumed there would be an increase over time. I was unsure of other ways to test changes over time, but this could be something to delve into further. 
+
+```{r}
+summary (dat$num_new_mental_health_cases)
+summary (dat$highest_inmate_count)
+summary (dat$avg_inmate_need_reg_med_attent)
+summary (dat$num_inmate_get_mental_heath_bed)
+```
+Further, I was curious about the mental health factors included. I looked at the summarizing values fo mental health cases and found a median of 44 new cases per month in each facility. Initially I looked at the mean, but noticing the high maximum and the great difference between median and mean, it seems as though the mean is being skewed by high values on the maximum end. Looking at the values for highest inmate count at a given moment, the median value is 406. While 44 is much lower than 406, I was still blown away by the high number of reported mental health cases. I assume that the number of mental health cases in total (with both reported and unreported) would be even higher. I am not surprised, but the number of inmates recieving mental health beds is rather low relative to the number of mental health cases -- the median is zero. 
+
+```{r}
+hist(dat$mental_heath_case_open_end_month, col='red',xlim = c(0,6000))
+hist(dat$num_inmate_get_mental_heath_bed, col='blue', add=TRUE, xlim = c(0,6000))
+```
+I tried to make a histogram comparing the number of mental health cases (red) to the number of inmates in mental health beds (blue), but this is messy and difficult to analyze. I kept it here as a rough draft, because I still believe that could be an interesting comparison.
+
+
+```{r}
+t.test(dat$mental_heath_case_open_end_month, dat$num_inmate_get_mental_heath_beds)
+```
+
+I was curious to run a t test between these variables to see if the differences are in fact statistically signifiant. 
+
+```{r}
+counts <- table(dat$num_new_mental_health_cases, dat$year)
+barplot(counts, main="Number of Doctor Visits", xlab="year")
+```
+
+I then created a bar chart showing the number of mental health cases over time and was again surprised to see an overall decline - I wonder why fewer cases were reported. 
+
+```{r}
+summary (dat$avg_inmate_in_hospital)
+```
+I was curious to see the summary of inmates in the hospital at a given time and was surprised to see the low rates. I would be curious to see quite how extreme a case has to be for an inmate to be brought to the hospital.
+
+```{r}
+counts <- table(dat$avg_inmate_in_hospital, dat$year)
+barplot(counts, main="Number of Inmates in the Hospital", xlab="year")
+```
+I created a bar chart of the number of inmates in the hospital over per year; I am honestly not quite sure exactly what the color coding means for each bar. I notice that the rates remain rather stable over time 
+
+
+```{r}
+summary (dat$num_dental_encounters)
+```
+
+I am disappointed, but not shocked by the low levels of dental encounters within jail. In part, this makes sense because many inmates in jail are there are short periods of time (and therefore would not need dental checks), but the numbers are still rather low. 
+
+
+```{r}
+counts <- table(dat$num_dental_encounters, dat$year)
+barplot(counts, main="Dental Encounters", xlab="year")
+```
+
+I created a bar plot to view the change in dental visits over the last 15 years. There does not seem to have been reports of dental visits priot to 2001. 
+
+
+```{r}
+hist(dat$num_inmate_get_psych_meds, col='red',xlim = c(0,1500))
+hist(dat$avg_inmates_need_reg_ment_health, col='blue', add=TRUE, xlim = c(0,1500))
+```
+
+I was then curious to see a histogram of inmates who recieve psych meds (red) compared to inmates who need regular mental health help (blue). I am honestly unsure how to view this histogram because I wonder how this relates to a general population (I do not know what a general rate of psychiatric mediction is)
+
+```{r}
+t.test (dat$num_inmate_get_psych_meds,dat$avg_inmates_need_reg_ment_health)
+```
+
+From there, I decided to run a t test comparing the rates of inmates who need regular mental health help compared to inmates who recieve psychiatric medication. 
+
+
 ## Memo 3
 
 TO: Maria Cuellar 
 
-From: Eliza Epstein
+FROM: Eliza Epstein
 
 DATE: February 21, 2022
 
