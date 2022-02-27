@@ -360,11 +360,34 @@ pre code {
 <p>FROM: Eliza Epstein</p>
 <p>DATE: February 24, 2022</p>
 <p>RE: Healthcare in Prisons</p>
-<p>I decided to work with a new data set because the inmate data set that I had downloadd was not “cleaned” - when loading the data in R, it gave instructions on how to clean each line. Because I was not immediately excited about any of the variables, I felt that it would be more efficient to go on Jacob Kaplan’s website (as we had learned about in Crim 250) in order to find a data set that was well organized and simpler to analyze (using my skill set). I found this data set specifically on jails in California and noticed variables related to health care. Due to the fact that I ultimately want to work as a doctor in prisons, I was immediately drawn to these variables. Below, I have show my initial EDA of the healthcare related variables within this data set.</p>
+<div id="on-the-website-this-is-written-in-an-r-script-i-was-not-sure-how-to-include-the-tables-figures-on-here-so-this-has-the-coding-but-i-have-also-emailed-the-r-markdown" class="section level3">
+<h3>On the website, this is written in an R script – I was not sure how to include the tables figures on here, so this has the coding, but I have also emailed the R markdown</h3>
+<p>I decided to work with a new data set because the inmate data set that I had downloaded was not “cleaned” - when loading the data in R, it gave instructions on how to clean each line. Because I was not immediately excited about any of the variables, I felt that it would be more efficient to go on Jacob Kaplan’s website (as we had learned about in Crim 250) in order to find a data set that was well organized and simpler to analyze (using my skill set). I found this data set specifically on jails in California and noticed variables related to health care. Due to the fact that I ultimately want to work as a doctor in prisons, I was immediately drawn to these variables. Below, I have show my initial EDA of the health care related variables within this data set.</p>
 <p>Moving forward, my goal is now to write a descriptive thesis about health care in jails. I want to show both the differences in certain variables over time as well as the differences between certain variables.</p>
-<p>Already, my initial hypotheses have been wrong.</p>
-<p>NOTES TO SELF: FIX T TESTS (switch to 2 variable – currently 1 variable)</p>
-<p>I first downloaded Jacob Kaplan’s R files on the California jail surveys 1995 to 2020. The rows represent each Jail’s monthly report and each column represents a factor of reporting. While the data focuses more generally on statistics such as number of female inmates, number of inmates awaiting trial and number of inmates transported to prison, I am focusing specifically on the healthcare data within.</p>
+</div>
+</div>
+<div id="outline" class="section level2">
+<h2>OUTLINE</h2>
+<pre><code>NOTES TO SELF: brief outline  
+    FIX T TESTS (switch to 2 variable -- currently 1 variable)
+
+         - abstract - descriptive study on health care visits in California jails 1995 to 2020
+         - introduction: disuss individual stories -- brief background of health care in prisons 
+         - hypothesis: low overall rates of medical care but improvement over time     
+         - data set: Jacob Kaplan&#39;s data file based on the California Board of State and Community Corrections&#39; wesbite     there are 3 data sets (facility monthly, county level monthly and county level quarterly) - I have only analyzed the facility monthly so far, but can look into the others as well 
+           - citation: Kaplan, Jacob. California Jail Profile Survey 1995-2020. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 2021-01-16. https://doi.org/10.3886/E104560V7
+           
+          - literature review:
+                healthcare in jails
+                changes in the medical field 1995-2020
+                healthcare in California
+                rates of health care visits/doctors in prison 
+                    ** I also believe there is a way to incorporate some of my literature review about childbirth in prisons 
+              
+          - data analysis: EDA, regression models based on the facility monthly reports 
+          - discussion: data analysis in words
+          - conclusion: policy/change implications (the need for improved health care in prisons)</code></pre>
+<p>I first downloaded Jacob Kaplan’s R files on the California jail surveys 1995 to 2020. The rows represent each Jail’s monthly report and each column represents a factor of reporting. While the data focuses more generally on statistics such as number of female inmates, number of inmates awaiting trial and number of inmates transported to prison, I am focusing specifically on the health care data within.</p>
 <pre class="{r}"><code>setwd(&quot;~/Desktop/california&quot;)
 dat &lt;- read.csv(&quot;california_jail_survey_1995_2020_csv 2/california_jail_county_monthly_1995_2020.csv&quot;)
 names (dat)</code></pre>
@@ -403,6 +426,11 @@ barplot(counts, main=&quot;Number of Inmates in the Hospital&quot;, xlab=&quot;y
 <pre class="{r}"><code>counts &lt;- table(dat$num_dental_encounters, dat$year)
 barplot(counts, main=&quot;Dental Encounters&quot;, xlab=&quot;year&quot;)</code></pre>
 <p>I created a bar plot to view the change in dental visits over the last 15 years. There does not seem to have been reports of dental visits priot to 2001.</p>
+<pre class="{r}"><code>hist(dat$num_inmate_get_psych_meds, col=&#39;red&#39;,xlim = c(0,1500))
+hist(dat$avg_inmates_need_reg_ment_health, col=&#39;blue&#39;, add=TRUE, xlim = c(0,1500))</code></pre>
+<p>I was then curious to see a histogram of inmates who recieve psych meds (red) compared to inmates who need regular mental health help (blue). I am honestly unsure how to view this histogram because I wonder how this relates to a general population (I do not know what a general rate of psychiatric mediction is)</p>
+<pre class="{r}"><code>t.test (dat$num_inmate_get_psych_meds,dat$avg_inmates_need_reg_ment_health)</code></pre>
+<p>From there, I decided to run a t test comparing the rates of inmates who need regular mental health help compared to inmates who recieve psychiatric medication.</p>
 </div>
 <div id="memo-3" class="section level2">
 <h2>Memo 3</h2>

@@ -10,44 +10,49 @@ FROM: Eliza Epstein
 
 DATE: February 24, 2022
 
-RE: Healthcare in Prisons 
+RE: Health care in Jails 
+
+On the website, this is written in an R script -- I was not sure how to include the tables figures on here, so this has the coding, but I have also emailed the R markdown 
 
 ---
 title: "EDA California Data"
 output: html_document
 ---
 
-I decided to work with a new data set because the inmate data set that I had downloadd was not "cleaned" - when loading the data in R, it gave instructions on how to clean each line. Because I was not immediately excited about any of the variables, I felt that it would be more efficient to go on Jacob Kaplan's website (as we had learned about in Crim 250) in order to find a data set that was well organized and simpler to analyze (using my skill set). I found this data set specifically on jails in California and noticed variables related to health care. Due to the fact that I ultimately want to work as a doctor in prisons, I was immediately drawn to these variables. Below, I have show my initial EDA of the healthcare related variables within this data set.
+I decided to work with a new data set because the inmate data set that I had downloaded was not "cleaned" - when loading the data in R, it gave instructions on how to clean each line. Because I was not immediately excited about any of the variables, I felt that it would be more efficient to go on Jacob Kaplan's website (as we had learned about in Crim 250) in order to find a data set that was well organized and simpler to analyze (using my skill set). I found this data set specifically on jails in California and noticed variables related to health care. Due to the fact that I ultimately want to work as a doctor in prisons, I was immediately drawn to these variables. Below, I have show my initial EDA of the health care related variables within this data set.
 
 Moving forward, my goal is now to write a descriptive thesis about health care in jails. I want to show both the differences in certain variables over time as well as the differences between certain variables. 
 
-Already, my initial hypotheses have been wrong. 
+## OUTLINE 
+    NOTES TO SELF: brief outline  
+        FIX T TESTS (switch to 2 variable -- currently 1 variable)
 
-NOTES TO SELF: brief outline  
-    FIX T TESTS (switch to 2 variable -- currently 1 variable)
-
-      - abstract - descriptive study on health care visits in California jails 1995 to 2020
-      - introduction: disuss individual stories -- brief background of health care in prisons 
-      - hypothesis: low overall rates of medical care but improvement over time     
-      - data set: Jacob Kaplan's data file based on the California Board of State and Community Corrections' wesbite     there are 3 data sets (facility monthly, county level monthly and county level quarterly) - I have only analyzed the facility monthly so far, but can look into the others as well 
+             - abstract - descriptive study on health care visits in California jails 1995 to 2020
+             - introduction: disuss individual stories -- brief background of health care in prisons 
+             - hypothesis: low overall rates of medical care but improvement over time     
+             - data set: Jacob Kaplan's data file based on the California Board of State and Community Corrections' wesbite     there are 3 data sets (facility monthly, county level monthly and county level quarterly) - I have only analyzed the facility monthly so far, but can look into the others as well 
                - citation: Kaplan, Jacob. California Jail Profile Survey 1995-2020. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 2021-01-16. https://doi.org/10.3886/E104560V7
                
-      - literature review:
-                healthcare in jails, changes in the medical field 1995-2020, healthcare in California, rates of health care visits/doctors in prison 
-                  ** I also believe there is a way to incorporate some of my literature review about childbirth in prisons 
+              - literature review:
+                    healthcare in jails
+                    changes in the medical field 1995-2020
+                    healthcare in California
+                    rates of health care visits/doctors in prison 
+                        ** I also believe there is a way to incorporate some of my literature review about childbirth in prisons 
                   
-      - data analysis: EDA, regression models based on the facility monthly reports 
-      - discussion: data analysis in words
-      - conclusion: policy/change implications (the need for improved health care in prisons)
-  
+              - data analysis: EDA, regression models based on the facility monthly reports 
+              - discussion: data analysis in words
+              - conclusion: policy/change implications (the need for improved health care in prisons)
     
-I first downloaded Jacob Kaplan's R files on the California jail surveys 1995 to 2020. The rows represent each Jail's monthly report and each column represents a factor of reporting. While the data focuses more generally on statistics such as number of female inmates, number of inmates awaiting trial and number of inmates transported to prison, I am focusing specifically on the healthcare data within. 
+    
+I first downloaded Jacob Kaplan's R files on the California jail surveys 1995 to 2020. The rows represent each Jail's monthly report and each column represents a factor of reporting. While the data focuses more generally on statistics such as number of female inmates, number of inmates awaiting trial and number of inmates transported to prison, I am focusing specifically on the health care data within. 
 
 ```{r}
 setwd("~/Desktop/california")
 dat <- read.csv("california_jail_survey_1995_2020_csv 2/california_jail_county_monthly_1995_2020.csv")
 names (dat)
 ```
+
 I have listed all of the variables to show what is available within this data for each monthly report. 
 
 ```{r}
