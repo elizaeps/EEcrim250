@@ -2,6 +2,32 @@
 
 # Memorandums
 
+## Memo 5
+
+TO: Maria Cuellar
+
+FROM: Eliza Epstein
+
+DATE: March 15, 2022
+
+RE: Literature Review 
+
+Over the past week, I have written my literature review and done an initial EDA. 
+
+Updated Schedule: 
+
+    - (March 24) : data analysis, tables, tests (Results section) & finish methodology section
+    
+    - (March 31): put data analysis into words - discussion & conclusion
+    
+    - (April 7): Finish introduction, abstract, edit ALL
+    
+    - (April 14): Submit final thesis
+
+Literature Review: 
+
+
+
 ## Memo 4
 
 TO: Maria Cuellar
