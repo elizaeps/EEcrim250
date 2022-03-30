@@ -2,6 +2,51 @@
 
 # Memorandums
 
+## Memo 7
+
+TO: Maria Cuellar
+
+FROM: Eliza Epstein
+
+DATE: March 29, 2022
+
+RE: Research Design, discussion, limitations
+
+#### Research Design 
+
+##### Hypothesis 
+
+The overall prediction is that this study will help show that healthcare is inaccessible to inmates in jails. The hypothesis is that there is a greater number of inmates requesting medical help than inmates receiving care from doctors in jails. In turn, the null hypothesis is that there is no difference between inmates appearing at sick call and inmates seeing doctors. 
+
+##### Data 
+
+
+The data being analyzed is the California Board of State and Community Corrections facility monthly reports from 1995 to 2020. Each month every facility submits a survey responding to certain variables such as the daily average of unsentenced males in their facility, the average number of felony inmates and the average number of inmates not assigned housing. Every local agency is responsible for submitting their surveys. BSCC (Board of State and community corrections) screens the surveys in order to ensure that only accurate and reliable data is published. Specifically, the data set worked with is Jacob Kaplan’s cleaned version of the California Jail Profile Survey 1995-2020. This data analysis focuses on two variables related to healthcare: inmates appearing at sick call and inmates seeing doctors. 
+ 
+In order to explain the methodology, it is necessary to describe the structure of the data. Each row of data represents a monthly report from a correctional facility. The first column shows the name of the facility followed by the month, the year then the survey information. For example, the first row shows the march 2020 survey information for Alameda Sheriff’s department. There are 64 total facilities shown monthly for 15 years. That said, through the screening process (conducted by the BSCC), some monthly reports were removed. In total there are 17, 801 rows of data. That said, due to the fact that they are monthly reports, some aspects are only represented as averages. For example, the female population is listed as the daily average population of sentenced or unsentenced females. Other variables are listed as totals such as the number of inmates receiving psychiatric medications.
+
+##### Study Population 
+
+The study population includes all inmates in jails in California between years 1995 to 2020. The interesting aspect of jail populations is their range of inmates. This data includes those awaiting trial, those awaiting sentencing, those with short sentences, those awaiting transportation to long term prison facilities among more. The data is monthly facility level data.  Both males and females are included in the population; given the binary settings of jails, these surveys do not include sections for nonbinary indvidivuals. Given the array ages within correctional facilities, this study covers many ages. 
+
+##### Methods
+
+The main goal of the study is to find the ratios of inmates seen by doctors compared to the number of inmates at sick call. In an ideal setting this ratio would be 1: every inmate who requests medical help should have access to a doctor. That said, given the NCCHC protocol, it is reasonable that these ratios would be slightly below 1 because the initial screening is conducted by a correctional nurse who may choose whether to involve a physician. 
+
+Using RStudio, the first step in the study was to find the jail with the largest population, as a relatively arbitrary starting point. With the largest sample size, this jail was seen as the first population for the study. Using that jail, the ratio of doctor occurrences to inmates seen at sick calls was calculated. In order to show a visual representation, this was presented as a plot. Further, using the ratios and the plots, these codes were extracted to apply to all of the correctional facilities. Next, the average ratio was calculated. Shown as histograms and plots, the ratios can be visualized both across times and across frequencies. Additionally, other plots were made using this data in order to help contextualize the information (example: the total number of inmates, by gender, for the largest facility).
+
+##### Relationship Between Empirical Measure and Theoretical Construct of Interest
+
+In using quantitative data, it is necessary to recall how this measure explains the theoretical construct. The goal of this study is to quantify healthcare availability in jails. The idea behind calculating these ratios is to numerically express the level of availability, or lack thereof, of healthcare in correctional facilities. Theoretically, a low ratio means low access to doctors in jails. It must be acknowledged that correctional nurses do the first screening when an inmate arrives at sick call, so this does not directly imply lack of general healthcare. The goal of this study is not to undermine the skill level or quality of care from correctional facilities, but rather to emphasize the lack of autonomy in accessing care. If an individual wants to be seen by a doctor, they should have the opportunity to. 
+
+##### Limitations
+
+I NEED TO ADD MORE TO THIS SECTION: There are many limitations involved in this study. Given it is displayed as monthly reports, rather than individualized values, it is difficult to extract further information from this data set. For example, it is not possible to look into specific parameters pertaining to who receives doctors visits. It would be interesting to look specifically at sentencing status and gender of those who receive doctors visits responding to sick call requests.  Additionally, the fact that the data is displayed as averages creates limitations. The ratios are calculated using average values. Finally, it must be noted that this information is limited to jails within California. It would be interesting to replicate this study using other states, seeing if location and political affiliation of the state have any impact on the healthcare within that state. Finally, it is important to recall that this is information just pertaining to jails, not prisons. It would be helpful to replicate this study using prison data. 
+
+
+
+
+
 ## Memo 6 
 
 TO: Maria Cuellar
